@@ -1,0 +1,257 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    background-color: #e0a98d;
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.logo{
+    color:#cf4125 ;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color:#F9FAF8 ;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 50px;
+    width: 1200px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.content{
+    display: flex;
+    flex: 1;
+    width: 1200px;
+    margin: auto;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.left-content,.right-content{
+    flex: 1 1 auto;
+    height: 220px;
+    width: 50%;
+
+}
+
+.right-content img{
+    height: 100%;
+    width: 100%;
+}
+
+.left-content button{
+    background-color: #cf4125;
+    color:#F9FAF8;
+    border-radius: 7px;
+    padding: 5px 15px;
+    border: none;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    gap: 20px 20px;
+    padding-bottom: 100px;
+}
+
+.heading{
+    margin: auto;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-bottom: 20px;
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.box{
+    
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.box img{
+    height: 100%;
+    width: 100%;
+    border: 5px solid #cf4125;
+    border-radius: 10px;
+}
+
+
+.signup{
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.area{
+    border: 5px solid #e0a98d;
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    background-color: #e0a98d;
+    padding-top:10px;
+    padding-bottom: 10px;
+    color: #F9FAF8;
+    border-radius: 7px;
+}
+
+.right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left{
+    flex: 1;
+    display: flex;
+    flex: 2 1 0;
+    flex-direction: column;
+    padding-left: 200px;
+}
+
+.right button{
+    background-color: #cf4125;
+    color:#F9FAF8;
+    border-radius: 7px;
+    padding: 5px 15px;
+    border: 2px solid white;
+}
+
+.footer{
+    background-color: #e0a98d;
+    color: #F9FAF8;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.line1{
+    font-weight: bolder;
+}
+
+/*contact us*/
+
+.box-contact{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border: 5px solid #cf4125;
+    margin-top: 100px;
+    width: 400px;
+    height: 400px;
+    margin-bottom: 100px;
+}
+.contact-us{
+    font-size: 36px;
+    text-align: center;
+    font-weight: bolder;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    padding: 20px;
+    font-size: 20px;
+}
+
+.form button{
+    background-color: #cf4125;
+    color:#F9FAF8;
+    border-radius: 7px;
+    padding: 15px 10px;
+    width: 50%;
+    border: none;
+    font-size: 20px;
+}
+
+.box-section{
+    background-color: #e0a98d;
+    margin-top: 50px;
+}
+/*transformation*/
+input[type=text]:focus {
+    background-color: lightblue;
+  }
+
+  input[type=email]:focus {
+    background-color: lightblue;
+  }  
+
+.scaling-button:hover{
+    transform: scaleY(1.2)
+}
+
+/*About*/
+
+.about-section{
+    display: flex;
+    flex-direction: column;
+    width: 1100px;
+    height: 500px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-heading{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-bottom: 20px;
+}
+
+.about-content{
+    display: flex;
+    gap: 10px;
+    
+}
+
+.about-line{
+    font-size: 20px;
+    color: #F9FAF8;
+}
+
+.section{
+    background-color: #e0a98d;
+}
